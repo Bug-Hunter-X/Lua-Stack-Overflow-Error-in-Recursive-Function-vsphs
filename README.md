@@ -1,0 +1,3 @@
+# Lua Stack Overflow Bug
+
+This repository demonstrates a common error in Lua programming: stack overflow errors caused by unintended infinite recursion in functions.  The `bug.lua` file contains a recursive function that fails when provided a negative input.  The `bugSolution.lua` file provides a corrected version that handles this case gracefully.  This example highlights the importance of input validation and proper termination conditions in recursive functions.
